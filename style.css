@@ -179,7 +179,7 @@ h4 {
 .services-section {
     display: flex;
     justify-content: space-evenly;
-    margin: 4vh 0 1vh;
+    margin: 1vh 0 1vh;
 
 }
 
@@ -191,11 +191,11 @@ h4 {
 }
 
 .services {
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     font-size: 1.125rem;
     line-height: 1.6rem;
     font-weight: 700;
-    padding: 0.5rem 0.2rem;
+    /* padding: 0.5rem 0.2rem; */
 }
 
 .services-paragraph {
@@ -225,9 +225,10 @@ h4 {
 .form-section {
     background-color: #35424a;
     width: 25%;
-    height: 55vh;
+    height: 50vh;
     color: white;
     padding: 1.5rem 0.9rem;
+    margin-top:1rem;
 }
 
 input {
@@ -244,20 +245,22 @@ input {
 #send {
     background-color:  #A9508B;
     color: white;
-    height: 5vh;
-    width: 8vh;
+    /* height: 5vh; */
+    /* width: 8vh; */
     font-size: 0.8rem;
     margin-top: 0.4rem;
     margin-bottom: 1rem;
     border: none;
+    padding: 0.2rem;
 }
 .place-holder {
     font-size: 0.85rem;
     width: 100%;
-    height: 7vh;
+    /* height: 7vh; */
     padding: 0.5rem 0.1rem;
     font-size: 0.80rem;
 }
+
 footer {
     display: flex;
     flex-direction: column;
@@ -300,11 +303,8 @@ footer p {
      }
      .form-section {
          width: 60%;
-         height: 60vh;
+         /* height: 30vh; */
          margin-bottom: 3rem;
      } 
 
-     .placeholder {
-        height: 7vh;
-     }
 }
