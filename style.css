@@ -225,7 +225,7 @@ h4 {
 .form-section {
     background-color: #35424a;
     width: 25%;
-    height: 60%;
+    height: 55vh;
     color: white;
     padding: 1.5rem 1rem;
     margin-top:3vh;
@@ -302,6 +302,7 @@ footer p {
      }
      .form-section {
          width: 60%;
+         height: auto;
          /* height: 30vh; */
          /* margin-bottom: 3rem; */
      } 
