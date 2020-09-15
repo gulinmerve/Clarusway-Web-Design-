@@ -253,6 +253,10 @@ input {
 }
 .place-holder {
     font-size: 0.85rem;
+    width: 100%;
+    height: 7vh;
+    padding: 0.5rem 0.1rem;
+    font-size: 0.80rem;
 }
 footer {
     display: flex;
@@ -269,23 +273,34 @@ footer p {
     font-weight: 400;
 }
 @media (max-width: 768px) {
-    .section-course {
+    .section-course{
         display: flex;
         flex-direction: column;
-    }
-    .css {
-        margin: 1.5rem;
-    }
-    .text {
-        display: flex;
-        flex-direction: column;
-    }
-    #about-us, #what-we-do{ 
-        margin: 1rem 5rem 3rem 5rem;   
-    }
-    .form-section {
-        width: 25%;
-        height: 70%;
-        padding: 1.5rem 0.9rem;
-    }
+        padding: 1.5rem 5rem;
+     }
+     .css{
+         margin: 1.5rem;
+     }
+     .text {
+         display: flex;
+         flex-direction: column;
+     }
+     #about-us, #what-we-do{ 
+         margin: 1rem 5rem 3rem 5rem;   
+     }
+     .services-section{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         /* justify-content: space-around; */
+     }
+     .services-div{
+         width: 75%;
+         margin-bottom: 2rem;
+     }
+     .form-section {
+         width: 60%;
+         height: 60vh;
+         margin-bottom: 3rem;
+     } 
 }
