@@ -225,10 +225,10 @@ h4 {
 .form-section {
     background-color: #35424a;
     width: 25%;
-    height: 60vh;
+    height: 55vh;
     color: white;
-    padding: 1.5rem 0.9rem;
-    margin-top:1rem;
+    padding: 2rem 1rem;
+    margin-top:3vh;
 }
 
 input {
@@ -248,10 +248,9 @@ input {
     /* height: 5vh; */
     /* width: 8vh; */
     font-size: 0.8rem;
-    margin-top: 0.4rem;
-    margin-bottom: 1rem;
+    margin-top: 0.3vh;
     border: none;
-    padding: 0.2rem;
+    padding: 0.5rem;
 }
 .place-holder {
     font-size: 0.85rem;
@@ -304,7 +303,7 @@ footer p {
      .form-section {
          width: 60%;
          /* height: 30vh; */
-         margin-bottom: 3rem;
+         /* margin-bottom: 3rem; */
      } 
 
 }
