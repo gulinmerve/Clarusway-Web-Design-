@@ -303,4 +303,8 @@ footer p {
          height: 60vh;
          margin-bottom: 3rem;
      } 
+
+     .placeholder {
+        height: 7vh;
+     }
 }
